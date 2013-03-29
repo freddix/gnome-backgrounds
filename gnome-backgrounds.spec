@@ -1,11 +1,11 @@
 Summary:	Set of backgrounds for GNOME desktop
 Name:		gnome-backgrounds
-Version:	3.6.1
+Version:	3.8.0
 Release:	1
 License:	GPL v2
 Group:		Themes
-Source0:	http://ftp.gnome.org/pub/gnome/sources/gnome-backgrounds/3.6/%{name}-%{version}.tar.xz
-# Source0-md5:	d057da50157451c1875e37e7654a0212
+Source0:	http://ftp.gnome.org/pub/gnome/sources/gnome-backgrounds/3.8/%{name}-%{version}.tar.xz
+# Source0-md5:	39713493f1c729961ccb12617e0308ad
 URL:		http://www.gnome.org/
 BuildRequires:	intltool
 BuildArch:	noarch
