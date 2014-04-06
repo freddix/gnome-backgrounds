@@ -1,11 +1,11 @@
 Summary:	Set of backgrounds for GNOME desktop
 Name:		gnome-backgrounds
-Version:	3.10.1
+Version:	3.12.0
 Release:	1
 License:	GPL v2
 Group:		Themes
-Source0:	http://ftp.gnome.org/pub/gnome/sources/gnome-backgrounds/3.10/%{name}-%{version}.tar.xz
-# Source0-md5:	1efc4842cb1d9542d5aff27016b4853e
+Source0:	http://ftp.gnome.org/pub/gnome/sources/gnome-backgrounds/3.12/%{name}-%{version}.tar.xz
+# Source0-md5:	cc5ff7ed259bfb8d09cf599fcfcb010f
 URL:		http://www.gnome.org/
 BuildRequires:	intltool
 BuildArch:	noarch
@@ -31,7 +31,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/{as,ca@valencia,en@shaw,sii}
+%{__rm} -r $RPM_BUILD_ROOT%{_datadir}/locale/{as,ca@valencia,en@shaw}
 
 %find_lang %{name}
 
